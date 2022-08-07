@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    margin: 30px auto 0 auto;
+  background-image: url("../images/D3-BG.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+h1{
+    color: #fff;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.piechart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 50px 0 50px;
+}
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.title {
+    fill: teal;
+    font-weight: bold;
+}
+.content{
+    width: 55%;
+}
+table{
+    color: #fff;
+}
+.item, .spend{
+    font-size: 1.3em;
+}
+.item{
+    padding-left: 20px;
+}
+.spend{
+    text-align: right;
+}
